@@ -1,0 +1,32 @@
+body {
+    background-color: aqua;
+}
+
+.main-div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-item {
+    margin: 24px;
+}
+
+.item-p {
+    color: darkmagenta;
+}
+
+.item-price {
+    color: red;
+}
+
+.img-item img {
+    width: 200px;
+    height: 200px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: greenyellow;
+}

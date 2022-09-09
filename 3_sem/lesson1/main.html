@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Main page</title>
+    <link href="main.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Мохен тохен</h1>
+    <h2>Магазин бибок</h2>
+<!--    Пустая строка ниже-->
+    <br>
+    <h3>Наши товары:</h3>
+    <div class="main-div">
+
+        <div class="main-item">
+            <div class="img-item">
+                <img src="bibka_img.jpeg" alt="Основная бибка">
+            </div>
+            <div class="desc-item">
+                <p class="item-p">Бибка со вкусом малины</p>
+                <p class="item-price">Цена: 123 руб.</p>
+            </div>
+            <input type="checkbox" id="dostavka">
+            <label for="dostavka">Нужна доставка?</label><br><br>
+
+            <textarea style="width: 100%">
+            </textarea><br>
+            <button onclick="buy_bibka()" type="submit">Купить бибку</button>
+        </div>
+
+        <div class="main-item">
+            <div class="img-item">
+                <img src="bibka_img.jpeg" alt="Основная бибка">
+            </div>
+            <div class="desc-item">
+                <p class="item-p">Бибка со вкусом персика</p>
+                <p class="item-price">Цена: 124 руб.</p>
+            </div>
+            <input type="checkbox" id="dostavka2">
+            <label for="dostavka2">Нужна доставка?</label><br><br>
+
+            <textarea style="width: 100%">
+            </textarea><br>
+            <button onclick="buy_bibka()">Купить бибку</button>
+        </div>
+
+        <div class="main-item">
+            <div class="img-item">
+                <img src="bibka_img.jpeg" alt="Основная бибка">
+            </div>
+            <div class="desc-item">
+                <p class="item-p">Бибка со вкусом арбуза</p>
+                <p class="item-price">Цена: 153 руб.</p>
+            </div>
+            <input type="checkbox" id="dostavka3">
+            <label for="dostavka3">Нужна доставка?</label><br><br>
+
+            <textarea style="width: 100%">
+            </textarea><br>
+            <button onclick="buy_bibka()">Купить бибку</button>
+        </div>
+    </div>
+    <div class="footer">
+        <ul>
+            <li>Мы находимся тут</li>
+            <li>Наш номер телефона такой-то</li>
+            <li>Сайт разраотан разработчиками</li>
+        </ul>
+    </div>
+    <script>
+        function buy_bibka() {
+            alert("Мы купили бибку");
+        }
+    </script>
+</body>
+
+</html>
